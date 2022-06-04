@@ -12,39 +12,20 @@ A time series analysis and model that aims to grow MercadoLibre by identifying a
 * **hvplot** - A set of Python visualization tools used to create compelling, and interactive visualizations.  
 * **sklearn** - An open-source Python library offers algorithms and models for building machine learning applications.
 * **Facebook Prophet** - open-source library for time series forecasting
+* **Google Colab** - an IDE that allows you to run Jupyter Notebooks in the cloud.
 ---
 
 ## Installation Guide
 ### Prerequisites
-#### Prophet
-It is recommended that you create a virtual environment and install prophet.
-```
-conda create -n <environment name> python=3.7 anaconda
-conda activate <environment name>
-conda install -c conda-forge prophet
-```
-**note:** To use prophet, import it into your notebook using `from prophet import Prophet`
-**note:** remember to deactivate your environmnent when done with `conda deactivate`
-
-#### HVPlot
-Ensure hvplot is installed in your conda environment
-```
-conda install hvplot
-```
-see [hvplot installation guide](https://github.com/conda-forge/hvplot-feedstock#:~:text=Installing%20hvplot%20from%20the%20conda-forge%20channel%20can%20be,has%20been%20enabled%2C%20hvplot%20can%20be%20installed%20with%3A) for more information.
-
-### Start Jupyter Lab
-Once your conda virtural environment is started with all prerequisites, start Jupyter Lab:
-```
-jupyter lab
-```
+#### Google Colab IDE
+1. navigate your browser to `https://colab.research.google.com`
+2. upload your notebook
+The collab environment should have all of the necessary tools, such as Prophet and HVPLot already set up.
 
 ---
 
 ## Usage
-Once Jupyter Lab has started in your browser, select the **crypto_investments.ipynb** notebook from the **Left Sidebar**.  This is the main analytical notebook.
-
-![launch Notebook.ipynb](images/start_notebook.png)
+Once the notebook is uploaded, run the notebook cells to rerun the analysis.
 
 ---
 
