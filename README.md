@@ -12,24 +12,22 @@ A time series analysis and model that aims to grow MercadoLibre by identifying a
 * **hvplot** - A set of Python visualization tools used to create compelling, and interactive visualizations.  
 * **sklearn** - An open-source Python library offers algorithms and models for building machine learning applications.
 * **Facebook Prophet** - open-source library for time series forecasting
-* **Google Colab** - an IDE that allows you to run Jupyter Notebooks in the cloud.
 ---
 
 ## Installation Guide
 ### Prerequisites
-#### Google Colab IDE
-1. navigate your browser to `https://colab.research.google.com`
-2. upload your notebook
-3. 
-* Ensure that Anaconda is installed
-* It is recommended that a conda virtual environment is created and used for this analysis
+#### Prophet
+It is recommended that you create a virtual environment and install prophet.
 ```
 conda create -n <environment name> python=3.7 anaconda
 conda activate <environment name>
+conda install -c conda-forge prophet
 ```
+**note:** To use prophet, import it into your notebook using `from prophet import Prophet`
 **note:** remember to deactivate your environmnent when done with `conda deactivate`
 
-* ensure hvplot is installed in your conda environment
+#### HVPlot
+Ensure hvplot is installed in your conda environment
 ```
 conda install hvplot
 ```
