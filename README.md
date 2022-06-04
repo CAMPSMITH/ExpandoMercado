@@ -20,12 +20,12 @@ A time series analysis and model that aims to grow MercadoLibre by identifying a
 #### Google Colab IDE
 1. navigate your browser to `https://colab.research.google.com`
 2. upload your notebook
-The collab environment should have all of the necessary tools, such as Prophet and HVPLot already set up.
+The Google Colab IDE should have all of the necessary tools, such as Prophet and HVPLot already set up.
 
 ---
 
 ## Usage
-Once the notebook is uploaded, run the notebook cells to rerun the analysis.
+Once the notebook is uploaded into your Google Colab IDE, run the notebook cells to rerun the analysis.
 
 ---
 
